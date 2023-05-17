@@ -1,19 +1,18 @@
-import { getBaseURL } from "../app/check-env";
 import "../app/globals.scss";
 import "../app/index.scss";
 import { IndexProps } from "../app/index.props";
+import { GetServerSideProps } from "next";
 
-export async function getServerSideProps() {
-  const base = getBaseURL();
-  const respose = await fetch(`${base}/api/cv`);
-  const html = (await respose.json()).html as IndexProps;
+export const getServerSideProps: GetServerSideProps = async (context) => {
+  const response = await fetch(`${context.req.headers.referer}/api/cv`);
+  const html = (await response.json()).html as IndexProps;
 
   return {
     props: {
       html,
     },
   };
-}
+};
 
 export default function Index({ html }: IndexProps) {
   return (
