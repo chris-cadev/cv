@@ -61,6 +61,14 @@ main {
     #experience {
         font-size: 3em;
 
+        hr {
+            margin: 1em 0;
+            background-color: lighten($accent, 60%);
+            height: 1px;
+            width: 8rem;
+            border: none;
+        }
+
         h3 {
             box-shadow: 0 .1em .2em rgba($color: #000000, $alpha: .1), 0 .1em .15em rgba($color: #000000, $alpha: .1);
             padding: .2em .5em;
@@ -117,6 +125,14 @@ main {
 
             li {
                 margin-left: 0;
+            }
+        }
+
+        h6+ul {
+
+
+            li {
+                margin-left: 1em;
             }
         }
     }

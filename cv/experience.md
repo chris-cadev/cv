@@ -4,13 +4,15 @@
 
 ###### Skills
 
-- Elm
-- Vue.js
-- Go (Programming Language)
-- GNU Make
-- TypeScript
-- JavaScript
-- Docker
+· Elm · Vue.js · Go (Programming Language) · GNU Make · TypeScript · JavaScript · Docker
+
+---
+
+###### Highlight
+
+Developed proficiency in managing monorepos, demonstrating adaptability and a strong understanding of scalable software engineering practices.
+
+---
 
 ###### Activities
 
@@ -22,10 +24,15 @@
 
 ###### Skills
 
-- Blockchain Architecture
-- Peer-to-peer Computing
-- Go (Programming Language)
-- Linux
+· Blockchain Architecture · Peer-to-peer Computing · Go (Programming Language) · Linux
+
+---
+
+###### Highlight
+
+Explored the intricacies of networking in a peer-to-peer (p2p) computing system, gaining in-depth understanding of its underlying mechanisms.
+
+---
 
 ###### Activities
 
@@ -37,13 +44,15 @@
 
 ###### Skills
 
-- Kong API Gateway
-- Amazon EKS
-- Scaled Agile Framework
-- AngularJS
-- Amazon S3
-- Amazon Elastic Container Registry (ECR)
-- Angular
+· Kong API Gateway · Amazon EKS · Scaled Agile Framework · AngularJS · Amazon S3 · Amazon Elastic Container Registry (ECR) · Angular
+
+---
+
+###### Highlight
+
+Successfully led a team of developers in the migration of an AngularJS app to a more recent version of Angular, resulting in improved performance and a better user experience.
+
+---
 
 ###### Activities
 
@@ -53,24 +62,21 @@
 - Demonstrated app functionality to product management through English demos.
 - Followed agile SAFe processes for app development and deployment.
 
-###### Highlight
-
-Successfully led a team of developers in the migration of an AngularJS app to a more recent version of Angular, resulting in improved performance and a better user experience.
-
 ### **Mid Software Engineer** - [Wrethink](https://www.wrethink.com/)
 
 #### Jun 2019 - Sep 2021 | 2 yrs 4 mos
 
 ###### Skills
 
-- PostgreSQL
-- Node-RED
-- AWS Lambda
-- React Native
-- TypeScript
-- JavaScript
-- Node.js
-- Express.js
+· PostgreSQL · Node-RED · AWS Lambda · React Native · TypeScript · JavaScript · Node.js · Express.js
+
+---
+
+###### Highlight
+
+Successfully implemented the hexagonal architecture for a module aimed at receiving and visualizing notifications on household devices. This architectural approach was adopted to eliminate convoluted business logic, resulting in a more organized and maintainable notification-module codebase.
+
+---
 
 ###### Activities
 
@@ -78,22 +84,21 @@ Successfully led a team of developers in the migration of an AngularJS app to a 
 - Implemented features such as user authentication and authorization, file upload and download, and conducted unit and integration testing to ensure the functionality and reliability of the system.
 - Collaborated with other developers and stakeholders to identify and resolve technical issues and improve system performance, utilizing Agile methodologies to manage project tasks and communicate progress with team members.
 
-###### Highlight
-
-Successfully implemented the hexagonal architecture for a module aimed at receiving and visualizing notifications on household devices. This architectural approach was adopted to eliminate convoluted business logic, resulting in a more organized and maintainable notification-module codebase.
-
 ### **Junnior Software Engineer** - [Semantic Research](https://www.semantic-ai.com/)
 
 #### Feb 2019 - Jun 2019 | 5 mos
 
 ###### Skills
 
-- HATEOAS
-- Spring Framework
-- Java
-- Angular
-- RxJS
-- Leaflet
+· HATEOAS · Spring Framework · Java · Angular · RxJS · Leaflet
+
+---
+
+###### Highlight
+
+Successfully resolved an issue related to visualizing a global heatmap of events by modifying the DOM behavior of the Leaflet library and integrating it seamlessly with the service we consumed via RxJS.
+
+---
 
 ###### Activities
 
@@ -101,26 +106,23 @@ Successfully implemented the hexagonal architecture for a module aimed at receiv
 - Implemented RxJS to handle data propagation and resolved issues related to data flow and communication between components.
 - Collaborated with the backend team to ensure smooth integration of data sources and provided documentation and recommendations for future improvements.
 
-###### Highlight
-
-Successfully resolved an issue related to visualizing a global heatmap of events by modifying the DOM behavior of the Leaflet library and integrating it seamlessly with the service we consumed via RxJS.
-
 ### **Intern Software Engineer** - [Nexus Fuel](https://nexusfuel.com/)
 
 #### Nov 2018 - Feb 2019 | 4 mos
 
 ###### Skills
 
-- C#
-- Vagrant
-- React Native
-- JavaScript
+· C# · Vagrant · React Native · JavaScript
+
+---
+
+###### Highlight
+
+Focused on the development of QR codes as a key feature of the points card program module.
+
+---
 
 ###### Activities
 
 - Created a module with my team for a points card program as an integral part of an ERP system for gas stations in Mexico.
 - Utilized Expo and React Native technologies for frontend development of the module.
-
-###### Highlight
-
-Focused on the development of QR codes as a key feature of the points card program module.
