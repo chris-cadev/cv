@@ -27,6 +27,7 @@ export default function Index({ html }: IndexProps) {
     <>
       <Head>
         <title>Christian Camacho - Software Engineer</title>
+        <link rel="shortcut icon" href="/static/otter.svg" />
         <meta
           name="description"
           content="Experienced front-end software engineer focused on delivering high-quality solutions. Committed to creating efficient and user-friendly applications. Seeking a challenging role to contribute to a dynamic organization's success."
