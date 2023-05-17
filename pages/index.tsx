@@ -4,7 +4,9 @@ import { IndexProps } from "../app/index.props";
 import { GetServerSideProps } from "next";
 
 export const getServerSideProps: GetServerSideProps = async (context) => {
-  const response = await fetch(`${context.req.headers.referer}/api/cv`);
+  const protocol =
+    process.env.NODE_ENV === "production" ? "https://" : "http://";
+  const response = await fetch(`${protocol}${context.req.headers.host}/api/cv`);
   const html = (await response.json()).html as IndexProps;
 
   return {
