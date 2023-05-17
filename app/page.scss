@@ -1,5 +1,10 @@
 @import "./colors.scss";
 
+body {
+    display: flex;
+    justify-content: center;
+}
+
 main {
     #personal-information {
         font-size: 4em;
@@ -37,12 +42,10 @@ main {
         }
 
         div:nth-child(2) {
-            font-weight: 200;
+            font-weight: 300;
             margin-top: 2em;
             font-size: .5em;
-            background: linear-gradient(120deg, $accent, lighten($accent, 50%));
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
+            color: lighten($accent, 20%);
 
             h2 {
                 display: none;

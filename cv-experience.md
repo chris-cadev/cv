@@ -1,6 +1,6 @@
 ### **Mid Software Engineer** - [LionDesk](https://liondesk.com/)
 
-#### **Nov 2022** - Present | 7 mos
+#### Nov 2022 - Present | 7 mos
 
 **Skills:** Elm · Vue.js · Go (Programming Language) · GNU Make · TypeScript · JavaScript · Docker
 
@@ -8,7 +8,7 @@
 
 ### **Mid Software Engineer** - Blockchainers (Mind Teams)
 
-#### **Jul 2022** - Nov 2022 | 5 mos
+#### Jul 2022 - Nov 2022 | 5 mos
 
 **Skills:** Blockchain Architecture · Peer-to-peer Computing · Go (Programming Language) · Linux
 
@@ -16,7 +16,7 @@
 
 ### **Software Engineer** - [Thermo Fisher Scientific](https://corporate.thermofisher.com/us/en/index.html)
 
-#### **Sep 2021** - May 2022 | 9 mos
+#### Sep 2021 - May 2022 | 9 mos
 
 **Skills:** Kong API Gateway · Amazon EKS · Scaled Agile Framework · AngularJS · Amazon S3 · Amazon Elastic Container Registry (ECR) · Angular
 
@@ -30,7 +30,7 @@
 
 ### **Mid Software Engineer** - [Wrethink](https://www.wrethink.com/)
 
-#### **Jun 2019** - Sep 2021 | 2 yrs 4 mos
+#### Jun 2019 - Sep 2021 | 2 yrs 4 mos
 
 **Skills:** PostgreSQL · Node-RED · AWS Lambda · React Native · TypeScript · JavaScript · Node.js · Express.js
 
@@ -40,9 +40,9 @@
 
 **Highlight:** Successfully implemented the hexagonal architecture for a module aimed at receiving and visualizing notifications on household devices. This architectural approach was adopted to eliminate convoluted business logic, resulting in a more organized and maintainable notification-module codebase.
 
-### **Junnior Software Engineer** - Semantic Research
+### **Junnior Software Engineer** - [Semantic Research](https://www.semantic-ai.com/)
 
-#### **Feb 2019** - Jun 2019 | 5 mos
+#### Feb 2019 - Jun 2019 | 5 mos
 
 **Skills:** HATEOAS · Spring Framework · Java · Angular · RxJS · Leaflet
 
@@ -52,9 +52,9 @@
 
 **Highlight:** Successfully resolved an issue related to visualizing a global heatmap of events by modifying the DOM behavior of the Leaflet library and integrating it seamlessly with the service we consumed via RxJS.
 
-### **Intern Software Engineer** - Nexus Fuel
+### **Intern Software Engineer** - [Nexus Fuel](https://nexusfuel.com/)
 
-#### **Nov 2018** - Feb 2019 | 4 mos
+#### Nov 2018 - Feb 2019 | 4 mos
 
 **Skills:** C# · Vagrant · React Native · JavaScript
 
