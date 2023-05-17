@@ -18,6 +18,5 @@ export default async function handler(req, res) {
     htmlResults[k] = result.toString();
   });
   await Promise.all(markdownToHTMLConversions);
-
   res.status(200).json({ html: htmlResults });
 }

@@ -1,4 +1,4 @@
-@import "./colors.scss";
+@import "../app/colors.scss";
 
 body {
     display: flex;
@@ -83,7 +83,9 @@ main {
         }
 
         h3,
-        h4 {
+        h4,
+        h5,
+        h6 {
             font-weight: bold;
         }
 
