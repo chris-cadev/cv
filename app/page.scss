@@ -1,0 +1,118 @@
+@import "./colors.scss";
+
+main {
+    #personal-information {
+        font-size: 4em;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        div:nth-child(1) {
+
+            h1 {
+                font-weight: bold;
+                background: linear-gradient(120deg, lighten($primary, 5%), lighten($accent, 15%));
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+            }
+
+            ul {
+
+                font-weight: 500;
+                font-size: .35em;
+                text-align: center;
+                color: lighten($primary, 10%);
+
+                li {
+                    display: block;
+                    position: relative;
+                    float: left;
+
+                    &:nth-child(n+1) {
+                        margin-left: .6em;
+                    }
+                }
+            }
+        }
+
+        div:nth-child(2) {
+            font-weight: 200;
+            margin-top: 2em;
+            font-size: .5em;
+            background: linear-gradient(120deg, $accent, lighten($accent, 50%));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+
+            h2 {
+                display: none;
+            }
+
+            p {
+                font-size: .7em;
+            }
+        }
+
+    }
+
+    #experience {
+        font-size: 3em;
+
+        h3 {
+            box-shadow: 0 .1em .2em rgba($color: #000000, $alpha: .1), 0 .1em .15em rgba($color: #000000, $alpha: .1);
+            padding: .2em .5em;
+            border-radius: .2em;
+            margin-bottom: .2em;
+            background: $secondary;
+        }
+
+        h3 strong {
+            background: linear-gradient(120deg, lighten($primary, 25%), darken($secondary, 50%));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+
+        a {
+            background: $primary;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        h3,
+        h4 {
+            font-weight: bold;
+        }
+
+        h2,
+        h3 {
+            font-size: .75em;
+        }
+
+        h4 {
+            font-size: .5em;
+        }
+
+        h3:nth-child(n+1) {
+            margin-top: 1em;
+        }
+
+        h4+p {
+            font-weight: 600;
+        }
+
+        &>* {
+            font-size: .4em;
+            color: darken($secondary, 75%);
+        }
+
+        ul {
+            list-style: inside;
+            margin: 1em 0;
+
+            li {
+                margin-left: 0;
+            }
+        }
+    }
+}
