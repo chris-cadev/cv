@@ -1,7 +1,7 @@
-import { getBaseURL } from "./check-env";
+import { getBaseURL } from "../app/check-env";
 import "../app/globals.scss";
-import "./index.scss";
-import { IndexProps } from "./index.props";
+import "../app/index.scss";
+import { IndexProps } from "../app/index.props";
 
 export async function getServerSideProps() {
   const base = getBaseURL();
