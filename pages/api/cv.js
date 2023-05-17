@@ -4,16 +4,16 @@ import { remark } from "remark";
 import html from "remark-html";
 
 const parts = Object.freeze({
-  profile: "cv-profile.md",
-  personal: "cv-personal.md",
-  experience: "cv-experience.md",
+  profile: "profile.md",
+  personal: "personal.md",
+  experience: "experience.md",
 });
 
 export default async function handler(req, res) {
   const htmlResults = {};
   const markdownToHTMLConversions = Object.keys(parts).map(async (k) => {
-    const filePath = path.join(process.cwd(), parts[k]);
-    const markdown = fs.readFileSync(filePath, "utf8");
+    const filePath = path.join(process.cwd(), "cv");
+    const markdown = fs.readFileSync(`${filePath}/${parts[k]}`, "utf8");
     const result = await remark().use(html).process(markdown);
     htmlResults[k] = result.toString();
   });
